@@ -42,9 +42,9 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         args:
-          -Dsonar.projectKey=jlbermudez-imagenevolutiva_gcp_users
-          -Dsonar.organization=jlbermudez-imagenevolutiva
-          -Dsonar.projectBaseDir=./python
-          -Dsonar.source=./python/src
-          -Dsonar.tests=./python/test
-          -Dsonar.verbose=true
+          sonar.projectKey=jlbermudez-imagenevolutiva_gcp_users
+          sonar.organization=jlbermudez-imagenevolutiva
+          sonar.projectBaseDir=./python
+          sonar.source=./src
+          sonar.tests=./test
+          sonar.verbose=true
