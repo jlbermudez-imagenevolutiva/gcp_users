@@ -1,0 +1,41 @@
+user: "jose.bermudez"
+projects:
+  - project: myProjectOne
+    permissions:
+      iam:
+        - permission 1
+        - permission 2
+      Bigquery:
+        - dataset: dataset_one
+          permissions:
+            - permission a
+            - permission b
+        - dataset: dataset two
+          permissions:
+            - permission x
+            - permission y
+  - project: myProjectTwo
+    permissions:
+      iam:
+        - permission 1
+        - permission 2
+      Bigquery:
+        - dataset: dataset_two
+          permissions:
+            - permission a
+            - permission b
+        - dataset: dataset_four
+          permissions:
+            - permission x
+            - permission y
+  - project: myProjectIII
+    permissions:
+      Bigquery:
+        - dataset: dataset_two
+          permissions:
+            - permissionXYZ
+            - permissionABC
+        - dataset: dataset_four
+          permissions:
+            - permission123
+            - permission456
